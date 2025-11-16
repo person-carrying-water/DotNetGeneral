@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="General/General.shproj" />
+  <Project Path="GeneralTest/GeneralTest.csproj" />
+</Solution>
