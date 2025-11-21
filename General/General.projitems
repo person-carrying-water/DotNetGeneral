@@ -9,8 +9,11 @@
     <Import_RootNamespace>General</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Database.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)FileConfig.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GeneralLogic.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IWin32ApiFile.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LastException.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Measure.cs" />
   </ItemGroup>
 </Project>
